@@ -19,6 +19,7 @@ vcpkg_installed/
 libxsd-4.2.0/
 Release/
 Debug/
+sampleData/HREF2025A_NN2000_EUREF89.gsb
 
 *.sln
 *.slnx
