@@ -231,6 +231,9 @@ U epsgCodeFromName(const S& datumName)
     if (iequals(datumName, SIRGAS_2000_s) ||
 		iequals(datumName, SIRGAS_2000_alias_s)) 
 		return SIRGAS_2000_i_xyz;
+    if (iequals(datumName, ETRS89_NOR_s) ||
+		iequals(datumName, ETRS89_NOR_alias_s))
+		return ETRS89_NOR_i_xyz;
 
     std::stringstream ss;
     ss << "  epsgCodeFromName: '" << datumName << "' is not a supported reference frame label." << std::endl;
@@ -366,6 +369,10 @@ S epsgStringFromName(const S& datumName)
     case SIRGAS_2000_i:
     case SIRGAS_2000_i_xyz:
         return SIRGAS_2000_c;
+	case ETRS89_NOR_i:
+    case ETRS89_NOR_i_2d:
+    case ETRS89_NOR_i_xyz:
+		return ETRS89_NOR_c_xyz;
 	}
 
 	std::stringstream ss;
@@ -392,6 +399,10 @@ bool isEpsgDatumStatic(const U& epsgCode)
 	case GDA2020_i_xyz:
 	case GDA2020_i_2d:
 	case GDA2020_i:
+    // ETRS89-NOR
+    case ETRS89_NOR_i_xyz:
+    case ETRS89_NOR_i_2d:    
+    case ETRS89_NOR_i:
 	// WGS84 ensemble
 	case WGS84_i_xyz:
 	case WGS84_i:
@@ -495,6 +506,10 @@ void spheroidFromEpsgCode(const U& epsgCode, epsg_spheroid& ellipsoid)
 		ellipsoid.name_ = "Australian National Spheroid";
 		ellipsoid.semi_major_ = ANS_a;
 		break;
+    // ETRS89-NOR
+    case ETRS89_NOR_i:
+    case ETRS89_NOR_i_2d:
+    case ETRS89_NOR_i_xyz:
 	// GDA94
 	case GDA94_i_xyz:
 	case GDA94_i_2d:
@@ -502,7 +517,7 @@ void spheroidFromEpsgCode(const U& epsgCode, epsg_spheroid& ellipsoid)
 	// GDA2020
 	case GDA2020_i_xyz:
 	case GDA2020_i_2d:
-	case GDA2020_i:
+    case GDA2020_i:	
 	// ITRF....
 	case ITRF1988_i_xyz:
 	case ITRF1988_i:
@@ -618,6 +633,11 @@ std::string referenceepochFromEpsgCode(const U& epsgCode)
 	// AGD84
 	case AGD84_i:
 		return AGD84_epoch;
+	// ETRS89-NOR
+    case ETRS89_NOR_i_xyz:
+    case ETRS89_NOR_i_2d:
+    case ETRS89_NOR_i:
+		return ETRS89_NOR_epoch;
 	// GDA94
 	case GDA94_i_xyz:
 	case GDA94_i_2d:
@@ -760,7 +780,12 @@ S datumFromEpsgCode(const U& epsgCode)
 	// Cocos islands
 	//case 4708:
 	//	return "CocosIs1965";
-	// GDA94
+    // ETRS89-NOR
+    case ETRS89_NOR_i:
+    case ETRS89_NOR_i_2d:
+    case ETRS89_NOR_i_xyz:
+		return ETRS89_NOR_s;
+    // GDA94
 	case GDA94_i_xyz:
 	case GDA94_i_2d:
 	case GDA94_i:

@@ -205,7 +205,6 @@ void determineGDA94Parameters(transformation_parameter_set& tParam)
 		throw std::runtime_error("determineGDA94Parameters: ");
 	}
 }
-	
 
 template <typename U>
 void determineGDA2020Parameters(transformation_parameter_set& tParam)
@@ -364,7 +363,6 @@ void determineGDA2020Parameters(transformation_parameter_set& tParam)
 		throw std::runtime_error("determineGDA2020Parameters: ");
 	}
 }
-	
 
 template <typename U>
 void determineITRF1988Parameters(transformation_parameter_set& tParam)
@@ -2073,7 +2071,6 @@ void determineITRF2008Parameters(transformation_parameter_set& tParam)
 		throw std::runtime_error("determineITRF2008Parameters: ");
 	}
 }
-	
 
 template <typename U>
 void determineITRF2014Parameters(transformation_parameter_set& tParam)
@@ -2411,7 +2408,6 @@ void determineITRF2020Parameters(transformation_parameter_set& tParam)
 	}
 }
 
-
 template <typename U>
 void determineNAD83Parameters(transformation_parameter_set& tParam)
 {
@@ -2572,7 +2568,6 @@ void determineNAD83Parameters(transformation_parameter_set& tParam)
 	}
 }
 
-
 // This function returns the Australian plate motion model parameters, which are selected when the user
 // chooses to use the Australian PMM as default for all transformations.  
 template <typename T, typename U>
@@ -2614,12 +2609,7 @@ void determineHelmertParameters(transformation_parameter_set& tParam)
 
 	try 
 	{
-		// Which 'from' datum?
-		switch (tParam.from_to_.first)
-		{
-		// GDA94
-		case GDA94_i_xyz:
-		case GDA94_i_2d:
+        GDA94
 		case GDA94_i:
 			determineGDA94Parameters<U>(tParam);
 			break;

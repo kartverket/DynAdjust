@@ -34,6 +34,10 @@
 const UINT16 AGD66_i =			4202;
 const UINT16 AGD84_i =			4203;
 
+const UINT16 ETRS89_NOR_i_xyz = 10873;      // XYZ
+const UINT16 ETRS89_NOR_i_2d =  10875;      // LatLon
+const UINT16 ETRS89_NOR_i =     10874;      // LatLonEht
+
 const UINT16 GDA94_i_xyz =		4938;		// XYZ
 const UINT16 GDA94_i_2d =		4283;		// LatLon
 const UINT16 GDA94_i =			4939;		// LatLonEht
@@ -123,6 +127,13 @@ const char* const GDA2020_c_xyz =	"7842";
 const char* const GDA2020_c_2d =	"7844";
 const char* const GDA2020_c =		"7843";
 
+// Norwegian ETRS89 relastion (ETRS89_NOR) is defined in EPSG as a 7-parameter transformation from ETRS89 to ETRF2000,
+// and is used for the Norwegian geodetic reference frame. The EPSG code for ETRS89_NOR is 10873.
+const char* const ETRS89_NOR_c_xyz = "10873";
+const char* const ETRS89_NOR_c     = "10874";
+const char* const ETRS89_NOR_c_2d  = "10875";
+const char* const ETRS89_NOR_epoch = "01.01.1989";
+
 // epsg strings for ITRF provide XYZ definition only
 const char* const ITRF2020_c =		"9988";
 const char* const ITRF2014_c =		"7789";
@@ -210,32 +221,34 @@ const char* const SIRGAS_ROU98_epoch = "03.07.1995";	// 1995.5
 const char* const SIRGAS_1995_epoch = "01.04.1995";		// 1995.4
 const char* const SIRGAS_2000_epoch = "01.04.2000";		// 2000.4
 
-const char* const AGD66_s =			"AGD66";
-const char* const AGD84_s =			"AGD84";
-const char* const GDA94_s =			"GDA94";
-const char* const GDA2020_s =		"GDA2020";
-const char* const ITRF2020_s =		"ITRF2020";
-const char* const ITRF2014_s =		"ITRF2014";
-const char* const ITRF2008_s =		"ITRF2008";
-const char* const ITRF2005_s =		"ITRF2005";
-const char* const ITRF2000_s =		"ITRF2000";
-const char* const ITRF1997_s =		"ITRF1997";
+const char* const AGD66_s =				 "AGD66";
+const char* const AGD84_s =			     "AGD84";
+const char* const GDA94_s =			     "GDA94";
+const char* const GDA2020_s =		   "GDA2020";
+const char* const ETRS89_NOR_s =	"ETRS89-NOR";
+const char* const ETRS89_NOR_alias_s = "EUREF89";
+const char* const ITRF2020_s =		  "ITRF2020";
+const char* const ITRF2014_s =	 	  "ITRF2014";
+const char* const ITRF2008_s =		  "ITRF2008";
+const char* const ITRF2005_s =		  "ITRF2005";
+const char* const ITRF2000_s =		  "ITRF2000";
+const char* const ITRF1997_s =	 	  "ITRF1997";
 const char* const ITRF1997_s_brief =  "ITRF97";
-const char* const ITRF1996_s =		"ITRF1996";
+const char* const ITRF1996_s =		  "ITRF1996";
 const char* const ITRF1996_s_brief =  "ITRF96";
-const char* const ITRF1994_s =		"ITRF1994";
+const char* const ITRF1994_s =		  "ITRF1994";
 const char* const ITRF1994_s_brief =  "ITRF94";
-const char* const ITRF1993_s =		"ITRF1993";
+const char* const ITRF1993_s =		  "ITRF1993";
 const char* const ITRF1993_s_brief =  "ITRF93";
-const char* const ITRF1992_s =		"ITRF1992";
+const char* const ITRF1992_s =		  "ITRF1992";
 const char* const ITRF1992_s_brief =  "ITRF92";
-const char* const ITRF1991_s =		"ITRF1991";
+const char* const ITRF1991_s =		  "ITRF1991";
 const char* const ITRF1991_s_brief =  "ITRF91";
-const char* const ITRF1990_s =		"ITRF1990";
+const char* const ITRF1990_s =		  "ITRF1990";
 const char* const ITRF1990_s_brief =  "ITRF90";
-const char* const ITRF1989_s =		"ITRF1989";
+const char* const ITRF1989_s =		  "ITRF1989";
 const char* const ITRF1989_s_brief =  "ITRF89";
-const char* const ITRF1988_s =		"ITRF1988";
+const char* const ITRF1988_s =		  "ITRF1988";
 const char* const ITRF1988_s_brief =  "ITRF88";
 
 // The vague and ambiguous WGS84 frame that some refer to an ensemble!
