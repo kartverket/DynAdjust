@@ -1,0 +1,136 @@
+# etrs89 project file. Created by:   import, File import and format exchange software. Version:      1.4.0, Debug (64-bit) with OpenBLAS (with OpenMP). Build:        Nov 12 2026, 13:22:44 - MSVC++ 17.14, VS2022
+
+#general (35)                      VALUE                                        
+--------------------------------------------------------------------------------
+network-name                       etrs89                                       
+input-folder                       C:\Users\himsve\source\repos\DynAdjust\sampleData
+output-folder                      C:\Users\himsve\source\repos\DynAdjust\sampleData
+verbose-level                      0                                            
+quiet                              no                                           
+project-file                       C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.dnaproj
+dynadjust-log-file                 C:\Users\himsve\source\repos\DynAdjust\sampleData\dynadjust.log
+
+#import (35)                       VALUE                                        
+--------------------------------------------------------------------------------
+stn-msr-file                       skye-tutorial.stn                            
+stn-msr-file                       skye-tutorial.msr                            
+geo-file                                                                        
+reference-frame                    GDA94                                        
+epoch                              01.01.1994                                   
+override-input-ref-frame           no                                           
+bounding-box                                                                    
+get-msrs-transcending-box          no                                           
+include-stns-assoc-msrs            no                                           
+exclude-stns-assoc-msrs            no                                           
+split-gnss-cluster-msrs            no                                           
+import-block-stn-msr               no                                           
+seg-file                                                                        
+prefer-single-x-as-g               no                                           
+include-msr-types                                                               
+exclude-msr-types                                                               
+stn-renaming-file                                                               
+discontinuity-file                                                              
+search-nearby-stn                  no                                           
+nearby-stn-buffer                  0.3                                          
+search-similar-gnss-msr            no                                           
+search-similar-msr                 no                                           
+ignore-insufficient-msrs           no                                           
+ignore-similar-msr                 no                                           
+remove-ignored-msr                 no                                           
+flag-unused-stations               no                                           
+test-integrity                     no                                           
+v-scale                            1                                            
+p-scale                            1                                            
+l-scale                            1                                            
+h-scale                            1                                            
+baseline-scalar-file                                                            
+consistent-export-names            no                                           
+export-xml-files                   no                                           
+single-xml-file                    no                                           
+export-dna-files                   no                                           
+export-asl-file                    no                                           
+export-aml-file                    no                                           
+export-map-file                    no                                           
+simulate-msr-file                  no                                           
+
+#reftran (35)                      VALUE                                        
+--------------------------------------------------------------------------------
+reference-frame                    GDA94                                        
+epoch                              01.01.1994                                   
+plate-model-option                 0                                            
+plate-boundary-file                                                             
+plate-pole-file                                                                 
+
+#geoid (35)                        VALUE                                        
+--------------------------------------------------------------------------------
+ntv2-file                                                                       
+interpolation-method               1                                            
+decimal-degrees                    0                                            
+direction                          0                                            
+export-dna-geo-file                no                                           
+
+#segment (35)                      VALUE                                        
+--------------------------------------------------------------------------------
+net-file                                                                        
+seg-file                                                                        
+min-inner-stns                     150                                          
+max-block-stns                     150                                          
+contiguous-blocks                  yes                                          
+starting-stns                                                                   
+
+#adjust (35)                       VALUE                                        
+--------------------------------------------------------------------------------
+seg-file                                                                        
+comments                                                                        
+adjustment-mode                    simultaneous-adjustment                      
+multi-thread                       no                                           
+staged-adjustment                  no                                           
+conf-interval                      95                                           
+iteration-threshold                0.0005                                       
+max-iterations                     10                                           
+constraints                                                                     
+free-stn-sd                        10.000                                       
+fixed-stn-sd                       1.0000e-06                                   
+scale-normals-to-unity             no                                           
+create-stage-files                 no                                           
+purge-stage-files                  no                                           
+type-b-sd-global                                                                
+type-b-sd-file                                                                  
+
+#output (35)                       VALUE                                        
+--------------------------------------------------------------------------------
+output-msr-to-stn                  no                                           
+sort-msr-to-stn-field              0                                            
+output-iter-adj-stn                no                                           
+output-iter-adj-stat               no                                           
+output-iter-adj-msr                no                                           
+output-iter-cmp-msr                no                                           
+output-adj-msr                     no                                           
+output-adj-gnss-units              0                                            
+output-tstat-adj-msr               no                                           
+sort-adj-msr-field                 0                                            
+output-database-ids                no                                           
+output-msr-blocks                  no                                           
+sort-stn-orig-order                no                                           
+stn-coord-types                    PLHhXYZ                                      
+angular-stn-type                   0                                            
+stn-corrections                    no                                           
+precision-stn-linear               4                                            
+precision-stn-angular              5                                            
+precision-msr-linear               4                                            
+precision-msr-angular              4                                            
+angular-msr-type                   0                                            
+dms-msr-format                     0                                            
+output-pos-uncertainty             no                                           
+output-all-covariances             no                                           
+output-apu-vcv-units               0                                            
+output-corrections-file            no                                           
+hz-corr-threshold                  0.000                                        
+vt-corr-threshold                  0.000                                        
+export-xml-stn-file                no                                           
+export-dna-stn-file                no                                           
+export-sinex-file                  no                                           
+
+#plot (35)                         VALUE                                        
+--------------------------------------------------------------------------------
+

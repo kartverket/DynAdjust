@@ -1,0 +1,112 @@
+--------------------------------------------------------------------------------
+DYNADJUST IMPORT LOG FILE
+
+Version:                           1.4.0, Debug (64-bit) with OpenBLAS (with OpenMP)
+Build:                             Nov 12 2026, 13:22:44 - MSVC++ 17.14, VS2022
+File created:                      Thursday, 12 November 2026, 14:01:09
+File name:                         C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.imp
+
+Command line arguments:            import -n etrs89 skye-tutorial.stn skye-tutorial.msr 
+
+Network name:                      etrs89
+Input folder:                      C:\Users\himsve\source\repos\DynAdjust\sampleData
+Output folder:                     C:\Users\himsve\source\repos\DynAdjust\sampleData
+Stations file:                     C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.bst
+Measurements file:                 C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.bms
+Associated station file:           C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.asl
+Associated measurement file:       C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.aml
+Duplicate stations output file:    C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.dst
+Similar measurement output file:   C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.dms
+Input files:                       skye-tutorial.stn
+                                   skye-tutorial.msr
+Project reference frame:           To be adopted from the first input file
+Project epoch:                     To be adopted from the first input file
+--------------------------------------------------------------------------------
+
++ Parsing 
+  skye-tutorial.stn...         Done. Loaded 6 stations in 0.001s
+  Project reference frame set to GDA94. Taken from DNA header.
+
+  skye-tutorial.msr...         Done. Loaded 27 measurements in 0.003s
+
++ File parsing summary:
+
+  Read 6 stations:
+ -------------------------------------------
+  (FFF) 3D free:                          6
+ -------------------------------------------
+  Total                                   6
+
+  Read 27 measurements:
+ -------------------------------------------
+  (A) Horizontal angle:                   0
+  (B) Geodetic azimuth:                   0
+  (C) Chord distance:                     0
+  (D) Direction set:                      0
+  (E) Ellipsoid arc:                      0
+  (G) GPS baseline:                      27
+  (H) Orthometric height:                 0
+  (I) Astronomic latitude:                0
+  (J) Astronomic longitude:               0
+  (K) Astronomic azimuth:                 0
+  (L) Level difference:                   0
+  (M) Mean sea level arc:                 0
+  (P) Geodetic latitude:                  0
+  (Q) Geodetic longitude:                 0
+  (R) Ellipsoidal height:                 0
+  (S) Slope distance:                     0
+  (V) Zenith distance:                    0
+  (X) GPS baseline cluster:               0
+  (Y) GPS point cluster:                  0
+  (Z) Vertical angle:                     0
+ -------------------------------------------
+  Total                                  27
+
++ Reducing stations... Done.
+
++ Testing for duplicate stations... Done. 
++ Sorting stations... Done.
++ Serialising station map... Done.
++ Mapping measurements to stations... Done. Mapped 27 measurements to 6 stations.
+
++ Final import summary:
+
+  Retained 6 stations:
+ -------------------------------------------
+  (FFF) 3D free:                          6
+ -------------------------------------------
+  Total                                   6
+
+  Retained 27 measurements:
+ -------------------------------------------
+  (A) Horizontal angle:                   0
+  (B) Geodetic azimuth:                   0
+  (C) Chord distance:                     0
+  (D) Direction set:                      0
+  (E) Ellipsoid arc:                      0
+  (G) GPS baseline:                      27
+  (H) Orthometric height:                 0
+  (I) Astronomic latitude:                0
+  (J) Astronomic longitude:               0
+  (K) Astronomic azimuth:                 0
+  (L) Level difference:                   0
+  (M) Mean sea level arc:                 0
+  (P) Geodetic latitude:                  0
+  (Q) Geodetic longitude:                 0
+  (R) Ellipsoidal height:                 0
+  (S) Slope distance:                     0
+  (V) Zenith distance:                    0
+  (X) GPS baseline cluster:               0
+  (Y) GPS point cluster:                  0
+  (Z) Vertical angle:                     0
+ -------------------------------------------
+  Total                                  27
+
++ Creating association lists... Done.
++ Serialising association lists... Done.
++ Serialising binary station file etrs89.bst... Done.
++ Serialising binary measurement file etrs89.bms... Done.
+
++ Total file handling process took 138.000ms.
++ Binary station and measurement files are now ready for processing.
+
