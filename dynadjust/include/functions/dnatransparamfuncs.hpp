@@ -2609,7 +2609,11 @@ void determineHelmertParameters(transformation_parameter_set& tParam)
 
 	try 
 	{
-        GDA94
+		// Which 'from' datum?
+        switch (tParam.from_to_.first) {
+        // GDA94
+        case GDA94_i_xyz:
+        case GDA94_i_2d:         
 		case GDA94_i:
 			determineGDA94Parameters<U>(tParam);
 			break;
