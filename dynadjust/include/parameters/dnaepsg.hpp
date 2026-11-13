@@ -911,7 +911,6 @@ S datumFromEpsgString(const S& epsgCode)
 	return datumFromEpsgCode<S, UINT32>(LongFromString<UINT32>(epsgCode));
 }
 
-
 template <typename U>
 bool validateEpsgCode(const U& epsgCode)
 {
@@ -921,6 +920,10 @@ bool validateEpsgCode(const U& epsgCode)
 	case AGD66_i:
 	// AGD84
 	case AGD84_i:
+    // ETRS89-NOR
+    case ETRS89_NOR_i_xyz:
+    case ETRS89_NOR_i_2d:
+    case ETRS89_NOR_i:
 	// GDA94
 	case GDA94_i_xyz:
 	case GDA94_i_2d:
