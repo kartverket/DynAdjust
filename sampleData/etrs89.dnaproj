@@ -1,4 +1,4 @@
-# etrs89 project file. Created by:   import, File import and format exchange software. Version:      1.4.0, Debug (64-bit) with OpenBLAS (with OpenMP). Build:        Nov 12 2026, 13:22:44 - MSVC++ 17.14, VS2022
+# etrs89 project file. Created by:   adjust, Geodetic network adjustment software. Version:      1.4.0, Release (64-bit) with OpenBLAS (with OpenMP). Build:        Nov 12 2026, 20:05:03 - MSVC++ 17.14, VS2022
 
 #general (35)                      VALUE                                        
 --------------------------------------------------------------------------------
@@ -12,11 +12,11 @@ dynadjust-log-file                 C:\Users\himsve\source\repos\DynAdjust\sample
 
 #import (35)                       VALUE                                        
 --------------------------------------------------------------------------------
-stn-msr-file                       skye-tutorial.stn                            
-stn-msr-file                       skye-tutorial.msr                            
+stn-msr-file                       etrs89.stn                                   
+stn-msr-file                       etrs89.msr                                   
 geo-file                                                                        
-reference-frame                    GDA94                                        
-epoch                              01.01.1994                                   
+reference-frame                    ETRS89-NOR                                   
+epoch                              01.01.1989                                   
 override-input-ref-frame           no                                           
 bounding-box                                                                    
 get-msrs-transcending-box          no                                           
@@ -55,15 +55,15 @@ simulate-msr-file                  no
 
 #reftran (35)                      VALUE                                        
 --------------------------------------------------------------------------------
-reference-frame                    GDA94                                        
-epoch                              01.01.1994                                   
+reference-frame                    ETRS89-NOR                                   
+epoch                              01.01.1989                                   
 plate-model-option                 0                                            
 plate-boundary-file                                                             
 plate-pole-file                                                                 
 
 #geoid (35)                        VALUE                                        
 --------------------------------------------------------------------------------
-ntv2-file                                                                       
+ntv2-file                          C:\Users\himsve\source\repos\DynAdjust\sampleData\HREF2025A_NN2000_EUREF89.gsb
 interpolation-method               1                                            
 decimal-degrees                    0                                            
 direction                          0                                            
@@ -88,7 +88,7 @@ staged-adjustment                  no
 conf-interval                      95                                           
 iteration-threshold                0.0005                                       
 max-iterations                     10                                           
-constraints                                                                     
+constraints                        211300470,CCC                                
 free-stn-sd                        10.000                                       
 fixed-stn-sd                       1.0000e-06                                   
 scale-normals-to-unity             no                                           
@@ -105,7 +105,7 @@ output-iter-adj-stn                no
 output-iter-adj-stat               no                                           
 output-iter-adj-msr                no                                           
 output-iter-cmp-msr                no                                           
-output-adj-msr                     no                                           
+output-adj-msr                     yes                                          
 output-adj-gnss-units              0                                            
 output-tstat-adj-msr               no                                           
 sort-adj-msr-field                 0                                            
