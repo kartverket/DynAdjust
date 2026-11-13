@@ -45,8 +45,8 @@ l-scale                            1
 h-scale                            1                                            
 baseline-scalar-file                                                            
 consistent-export-names            no                                           
-export-xml-files                   no                                           
-single-xml-file                    no                                           
+export-xml-files                   yes                                          
+single-xml-file                    yes                                          
 export-dna-files                   no                                           
 export-asl-file                    no                                           
 export-aml-file                    no                                           
