@@ -16,7 +16,7 @@
       <YAxis>10.2000000000</YAxis>
       <Height>400.0000</Height>
     </StationCoord>
-    <Description>LA PM   47</Description>
+    <Description>LLA PM   47</Description>
   </DnaStation>
   <DnaStation>
     <Name>211300940</Name>
@@ -26,9 +26,9 @@
       <Name>211300940</Name>
       <XAxis>63.4000000000</XAxis>
       <YAxis>10.2000000000</YAxis>
-      <Height>500.0000</Height>
+      <Height>450.0000</Height>
     </StationCoord>
-    <Description>LA PM   94</Description>
+    <Description>LLA PM   94</Description>
   </DnaStation>
   <DnaStation>
     <Name>211301000</Name>
@@ -38,9 +38,9 @@
       <Name>211301000</Name>
       <XAxis>63.4000000000</XAxis>
       <YAxis>10.1000000000</YAxis>
-      <Height>600.0000</Height>
+      <Height>550.0000</Height>
     </StationCoord>
-    <Description>LA PM  100</Description>
+    <Description>LLA PM  100</Description>
   </DnaStation>
   <DnaStation>
     <Name>211301080</Name>
@@ -50,9 +50,9 @@
       <Name>211301080</Name>
       <XAxis>63.3000000000</XAxis>
       <YAxis>10.1000000000</YAxis>
-      <Height>500.0000</Height>
+      <Height>300.0000</Height>
     </StationCoord>
-    <Description>LA PM  108</Description>
+    <Description>LLA PM  108</Description>
   </DnaStation>
   <!-- Type (G) GPS baseline -->
   <DnaMeasurement>
@@ -69,9 +69,9 @@
     <First>211300470</First>
     <Second>211300940</Second>
     <GPSBaseline>
-      <X>-16325.9141</X>
-      <Y>-2976.7303</Y>
-      <Z>8356.2593</Z>
+      <X>-16347.7276</X>
+      <Y>-2980.7115</Y>
+      <Z>8311.4065</Z>
       <SigmaXX>1.7012598619000e-05</SigmaXX>
       <SigmaXY>-1.0467927495000e-05</SigmaXY>
       <SigmaXZ>1.4195195035000e-05</SigmaXZ>
@@ -95,9 +95,9 @@
     <First>211300470</First>
     <Second>211301000</Second>
     <GPSBaseline>
-      <X>-14813.5631</X>
-      <Y>-11090.1622</Y>
-      <Z>8446.0766</Z>
+      <X>-14835.3965</X>
+      <Y>-11094.0812</Y>
+      <Z>8401.2603</Z>
       <SigmaXX>4.0651889321000e-07</SigmaXX>
       <SigmaXY>-1.6381380874000e-07</SigmaXY>
       <SigmaXZ>2.1136906980000e-07</SigmaXZ>
@@ -121,9 +121,9 @@
     <First>211300470</First>
     <Second>211301080</Second>
     <GPSBaseline>
-      <X>1521.3716</X>
-      <Y>-8160.8828</Y>
-      <Z>89.8038</Z>
+      <X>1433.3903</X>
+      <Y>-8176.6346</Y>
+      <Z>-89.1830</Z>
       <SigmaXX>1.3081703401000e-05</SigmaXX>
       <SigmaXY>-7.4526451499000e-06</SigmaXY>
       <SigmaXZ>1.0981510059000e-05</SigmaXZ>
@@ -148,8 +148,8 @@
     <Second>211301000</Second>
     <GPSBaseline>
       <X>1512.3425</X>
-      <Y>-8113.4332</Y>
-      <Z>89.8319</Z>
+      <Y>-8113.3721</Y>
+      <Z>89.8525</Z>
       <SigmaXX>1.3417868104000e-05</SigmaXX>
       <SigmaXY>-9.1385281848000e-06</SigmaXY>
       <SigmaXZ>1.1773546248000e-05</SigmaXZ>
@@ -173,9 +173,9 @@
     <First>211300940</First>
     <Second>211301080</Second>
     <GPSBaseline>
-      <X>17847.2776</X>
-      <Y>-5184.1497</Y>
-      <Z>-8266.4471</Z>
+      <X>17781.1178</X>
+      <Y>-5195.9231</Y>
+      <Z>-8400.5895</Z>
       <SigmaXX>6.4288702561000e-05</SigmaXX>
       <SigmaXY>-4.4215870730000e-05</SigmaXY>
       <SigmaXZ>5.1152939704000e-05</SigmaXZ>
@@ -199,9 +199,9 @@
     <First>211301000</First>
     <Second>211301080</Second>
     <GPSBaseline>
-      <X>16334.9346</X>
-      <Y>2929.2835</Y>
-      <Z>-8356.2678</Z>
+      <X>16268.7848</X>
+      <Y>2917.4495</Y>
+      <Z>-8490.4433</Z>
       <SigmaXX>1.7870357260000e-04</SigmaXX>
       <SigmaXY>-1.2217018229000e-04</SigmaXY>
       <SigmaXZ>1.5706324484000e-04</SigmaXZ>
