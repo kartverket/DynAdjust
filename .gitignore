@@ -59,3 +59,18 @@ README.md
 
 # Testing directory created by CTest
 testing/
+/sampleData/etrs89-pam.mtx
+/sampleData/etrs89-rva.mtx
+/sampleData/etrs89.aml
+/sampleData/etrs89.asl
+/sampleData/etrs89.bms
+/sampleData/etrs89.bst
+/sampleData/etrs89.dbid
+/sampleData/etrs89.imp
+/sampleData/etrs89.map
+/sampleData/etrs89.simult.adj
+/sampleData/etrs89.simult.xyz
+/sampleData/etrs89.m2s
+/sampleData/etrs89.simult.apu
+/sampleData/etrs89.simult.cor
+/sampleData/etrs89.simult.adj.stn.xml
