@@ -1,4 +1,4 @@
-# etrs89 project file. Created by:   adjust, Geodetic network adjustment software. Version:      1.4.0, Debug (64-bit) with OpenBLAS (with OpenMP). Build:        Nov 16 2026, 13:32:11 - MSVC++ 17.14, VS2022
+# etrs89 project file. Created by:   import, File import and format exchange software. Version:      1.4.0, Debug (64-bit) with OpenBLAS (with OpenMP). Build:        Nov 16 2026, 14:28:14 - MSVC++ 17.14, VS2022
 
 #general (35)                      VALUE                                        
 --------------------------------------------------------------------------------
@@ -12,8 +12,7 @@ dynadjust-log-file                 C:\Users\himsve\source\repos\DynAdjust\sample
 
 #import (35)                       VALUE                                        
 --------------------------------------------------------------------------------
-stn-msr-file                       etrs89.stn                                   
-stn-msr-file                       etrs89.msr                                   
+stn-msr-file                       etrs89.xml                                   
 geo-file                                                                        
 reference-frame                    ETRS89-NOR                                   
 epoch                              01.01.1989                                   
@@ -88,7 +87,7 @@ staged-adjustment                  no
 conf-interval                      95                                           
 iteration-threshold                0.0005                                       
 max-iterations                     10                                           
-constraints                        211300470,CCC                                
+constraints                                                                     
 free-stn-sd                        10.000                                       
 fixed-stn-sd                       1.0000e-06                                   
 scale-normals-to-unity             no                                           
@@ -114,21 +113,21 @@ output-msr-blocks                  no
 sort-stn-orig-order                no                                           
 stn-coord-types                    PLHhXYZ                                      
 angular-stn-type                   0                                            
-stn-corrections                    no                                           
+stn-corrections                    yes                                          
 precision-stn-linear               4                                            
 precision-stn-angular              5                                            
 precision-msr-linear               4                                            
 precision-msr-angular              4                                            
 angular-msr-type                   0                                            
 dms-msr-format                     0                                            
-output-pos-uncertainty             no                                           
-output-all-covariances             no                                           
+output-pos-uncertainty             yes                                          
+output-all-covariances             yes                                          
 output-apu-vcv-units               0                                            
-output-corrections-file            no                                           
+output-corrections-file            yes                                          
 hz-corr-threshold                  0.000                                        
 vt-corr-threshold                  0.000                                        
-export-xml-stn-file                no                                           
-export-dna-stn-file                no                                           
+export-xml-stn-file                yes                                          
+export-dna-stn-file                yes                                          
 export-sinex-file                  no                                           
 
 #plot (35)                         VALUE                                        
