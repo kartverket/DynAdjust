@@ -1,4 +1,4 @@
-# etrs89 project file. Created by:   import, File import and format exchange software. Version:      1.4.0, Debug (64-bit) with OpenBLAS (with OpenMP). Build:        Nov 16 2026, 14:28:14 - MSVC++ 17.14, VS2022
+# etrs89 project file. Created by:   adjust, Geodetic network adjustment software. Version:      1.4.0, Debug (64-bit) with OpenBLAS (with OpenMP). Build:        Nov 18 2026, 12:40:34 - MSVC++ 17.14, VS2022
 
 #general (35)                      VALUE                                        
 --------------------------------------------------------------------------------

@@ -5,15 +5,15 @@
 <!-- Build:        Nov 16 2026, 14:27:59 - MSVC++ 17.14, VS2022 -->
 <!-- File type:    Combined station and measurements file -->
 <!-- Project name: etrs89 -->
-<!-- Source files: C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.stn C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.msr  -->
+<!-- Source files: C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.xml  -->
   <DnaStation>
     <Name>211300470</Name>
     <Constraints>CCC</Constraints>
     <Type>LLH</Type>
     <StationCoord>
       <Name>211300470</Name>
-      <XAxis>63.3000000000</XAxis>
-      <YAxis>10.2000000000</YAxis>
+      <XAxis>63.3500000000</XAxis>
+      <YAxis>10.2100000000</YAxis>
       <Height>400.0000</Height>
     </StationCoord>
     <Description>LLA PM   47</Description>
@@ -24,9 +24,9 @@
     <Type>LLH</Type>
     <StationCoord>
       <Name>211300940</Name>
-      <XAxis>63.4000000000</XAxis>
+      <XAxis>63.3800000000</XAxis>
       <YAxis>10.2000000000</YAxis>
-      <Height>450.0000</Height>
+      <Height>600.0000</Height>
     </StationCoord>
     <Description>LLA PM   94</Description>
   </DnaStation>
@@ -36,9 +36,9 @@
     <Type>LLH</Type>
     <StationCoord>
       <Name>211301000</Name>
-      <XAxis>63.4000000000</XAxis>
-      <YAxis>10.1000000000</YAxis>
-      <Height>550.0000</Height>
+      <XAxis>63.3900000000</XAxis>
+      <YAxis>10.1500000000</YAxis>
+      <Height>500.0000</Height>
     </StationCoord>
     <Description>LLA PM  100</Description>
   </DnaStation>
@@ -48,9 +48,81 @@
     <Type>LLH</Type>
     <StationCoord>
       <Name>211301080</Name>
-      <XAxis>63.3000000000</XAxis>
-      <YAxis>10.1000000000</YAxis>
+      <XAxis>63.3600000000</XAxis>
+      <YAxis>10.1600000000</YAxis>
       <Height>300.0000</Height>
+    </StationCoord>
+    <Description>LLA PM  108</Description>
+  </DnaStation>
+  <DnaStation>
+    <Name>HP1</Name>
+    <Constraints>CCF</Constraints>
+    <Type>LLH</Type>
+    <StationCoord>
+      <Name>HP1</Name>
+      <XAxis>63.3550000000</XAxis>
+      <YAxis>10.2050000000</YAxis>
+      <Height>400.0000</Height>
+    </StationCoord>
+    <Description>LLA PM  108</Description>
+  </DnaStation>
+  <DnaStation>
+    <Name>HP2</Name>
+    <Constraints>CCF</Constraints>
+    <Type>LLH</Type>
+    <StationCoord>
+      <Name>HP2</Name>
+      <XAxis>63.3600000000</XAxis>
+      <YAxis>10.1950000000</YAxis>
+      <Height>400.0000</Height>
+    </StationCoord>
+    <Description>LLA PM  108</Description>
+  </DnaStation>
+  <DnaStation>
+    <Name>HP3</Name>
+    <Constraints>CCF</Constraints>
+    <Type>LLH</Type>
+    <StationCoord>
+      <Name>HP3</Name>
+      <XAxis>63.3650000000</XAxis>
+      <YAxis>10.1800000000</YAxis>
+      <Height>400.0000</Height>
+    </StationCoord>
+    <Description>LLA PM  108</Description>
+  </DnaStation>
+  <DnaStation>
+    <Name>HP4</Name>
+    <Constraints>CCF</Constraints>
+    <Type>LLH</Type>
+    <StationCoord>
+      <Name>HP4</Name>
+      <XAxis>63.3700000000</XAxis>
+      <YAxis>10.1750000000</YAxis>
+      <Height>400.0000</Height>
+    </StationCoord>
+    <Description>LLA PM  108</Description>
+  </DnaStation>
+  <DnaStation>
+    <Name>HP5</Name>
+    <Constraints>CCF</Constraints>
+    <Type>LLH</Type>
+    <StationCoord>
+      <Name>HP5</Name>
+      <XAxis>63.3750000000</XAxis>
+      <YAxis>10.1600000000</YAxis>
+      <Height>400.0000</Height>
+    </StationCoord>
+    <Description>LLA PM  108</Description>
+  </DnaStation>
+  <DnaStation>
+    <Name>HP6</Name>
+    <Constraints>CCF</Constraints>
+    <Type>LLH</Type>
+    <StationCoord>
+      <Name>HP6</Name>
+      <XAxis>63.3850000000</XAxis>
+      <YAxis>10.1550000000</YAxis>
+      <Height>350.0000</Height>
     </StationCoord>
     <Description>LLA PM  108</Description>
   </DnaStation>
@@ -69,9 +141,9 @@
     <First>211300470</First>
     <Second>211300940</Second>
     <GPSBaseline>
-      <X>-16347.7276</X>
-      <Y>-2980.7115</Y>
-      <Z>8311.4065</Z>
+      <X>-4675.9386</X>
+      <Y>-1693.9255</Y>
+      <Z>2657.0815</Z>
       <SigmaXX>1.7012598619000e-05</SigmaXX>
       <SigmaXY>-1.0467927495000e-05</SigmaXY>
       <SigmaXZ>1.4195195035000e-05</SigmaXZ>
@@ -95,9 +167,9 @@
     <First>211300470</First>
     <Second>211301000</Second>
     <GPSBaseline>
-      <X>-14835.3965</X>
-      <Y>-11094.0812</Y>
-      <Z>8401.2603</Z>
+      <X>-5619.7143</X>
+      <Y>-6062.9997</Y>
+      <Z>3392.6020</Z>
       <SigmaXX>4.0651889321000e-07</SigmaXX>
       <SigmaXY>-1.6381380874000e-07</SigmaXY>
       <SigmaXZ>2.1136906980000e-07</SigmaXZ>
@@ -121,9 +193,9 @@
     <First>211300470</First>
     <Second>211301080</Second>
     <GPSBaseline>
-      <X>1433.3903</X>
-      <Y>-8176.6346</Y>
-      <Z>-89.1830</Z>
+      <X>-940.5043</X>
+      <Y>-4376.2326</Y>
+      <Z>737.0430</Z>
       <SigmaXX>1.3081703401000e-05</SigmaXX>
       <SigmaXY>-7.4526451499000e-06</SigmaXY>
       <SigmaXZ>1.0981510059000e-05</SigmaXZ>
@@ -147,9 +219,9 @@
     <First>211300940</First>
     <Second>211301000</Second>
     <GPSBaseline>
-      <X>1512.3425</X>
-      <Y>-8113.3721</Y>
-      <Z>89.8525</Z>
+      <X>-943.7725</X>
+      <Y>-4369.0721</Y>
+      <Z>735.5212</Z>
       <SigmaXX>1.3417868104000e-05</SigmaXX>
       <SigmaXY>-9.1385281848000e-06</SigmaXY>
       <SigmaXZ>1.1773546248000e-05</SigmaXZ>
@@ -173,9 +245,9 @@
     <First>211300940</First>
     <Second>211301080</Second>
     <GPSBaseline>
-      <X>17781.1178</X>
-      <Y>-5195.9231</Y>
-      <Z>-8400.5895</Z>
+      <X>3735.4318</X>
+      <Y>-2682.3059</Y>
+      <Z>-1920.0395</Z>
       <SigmaXX>6.4288702561000e-05</SigmaXX>
       <SigmaXY>-4.4215870730000e-05</SigmaXY>
       <SigmaXZ>5.1152939704000e-05</SigmaXZ>
@@ -199,9 +271,9 @@
     <First>211301000</First>
     <Second>211301080</Second>
     <GPSBaseline>
-      <X>16268.7848</X>
-      <Y>2917.4495</Y>
-      <Z>-8490.4433</Z>
+      <X>4679.2158</X>
+      <Y>1686.7675</Y>
+      <Z>-2655.5663</Z>
       <SigmaXX>1.7870357260000e-04</SigmaXX>
       <SigmaXY>-1.2217018229000e-04</SigmaXY>
       <SigmaXZ>1.5706324484000e-04</SigmaXZ>
@@ -209,5 +281,529 @@
       <SigmaYZ>-1.1150668433000e-04</SigmaYZ>
       <SigmaZZ>1.4773129078000e-04</SigmaZZ>
     </GPSBaseline>
+  </DnaMeasurement>
+  <!-- Type (A) Horizontal angle -->
+  <DnaMeasurement>
+    <Type>A</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300470</First>
+    <Second>211300940</Second>
+    <Third>211301000</Third>
+    <Value>334.45192351</Value>
+    <StdDev>2.000000e+01</StdDev>
+  </DnaMeasurement>
+  <!-- Type (A) Horizontal angle -->
+  <DnaMeasurement>
+    <Type>A</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300470</First>
+    <Second>211301000</Second>
+    <Third>211301080</Third>
+    <Value>327.53502301</Value>
+    <StdDev>2.000000e+01</StdDev>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300470</First>
+    <Second>211300940</Second>
+    <Value>5638.6056</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.428</InstHeight>
+    <TargHeight>1.514</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300470</First>
+    <Second>211300940</Second>
+    <Value>87.59204439</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.428</InstHeight>
+    <TargHeight>1.514</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300470</First>
+    <Second>211301000</Second>
+    <Value>8935.9560</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.428</InstHeight>
+    <TargHeight>1.678</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300470</First>
+    <Second>211301000</Second>
+    <Value>89.23399578</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.428</InstHeight>
+    <TargHeight>1.678</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300470</First>
+    <Second>211301080</Second>
+    <Value>4536.4378</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.428</InstHeight>
+    <TargHeight>1.312</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300470</First>
+    <Second>211301080</Second>
+    <Value>91.16529611</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.428</InstHeight>
+    <TargHeight>1.312</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (A) Horizontal angle -->
+  <DnaMeasurement>
+    <Type>A</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300940</First>
+    <Second>211300470</Second>
+    <Third>211301000</Third>
+    <Value>122.42183229</Value>
+    <StdDev>2.000000e+01</StdDev>
+  </DnaMeasurement>
+  <!-- Type (A) Horizontal angle -->
+  <DnaMeasurement>
+    <Type>A</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300940</First>
+    <Second>211301000</Second>
+    <Third>211301080</Third>
+    <Value>287.26163819</Value>
+    <StdDev>2.000000e+01</StdDev>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300940</First>
+    <Second>211300470</Second>
+    <Value>5638.6056</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.514</InstHeight>
+    <TargHeight>1.428</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300940</First>
+    <Second>211300470</Second>
+    <Value>92.03414439</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.514</InstHeight>
+    <TargHeight>1.428</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300940</First>
+    <Second>211301000</Second>
+    <Value>4529.9456</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.514</InstHeight>
+    <TargHeight>1.678</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300940</First>
+    <Second>211301000</Second>
+    <Value>91.16494439</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.514</InstHeight>
+    <TargHeight>1.678</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300940</First>
+    <Second>211301080</Second>
+    <Value>4983.4696</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.514</InstHeight>
+    <TargHeight>1.312</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300940</First>
+    <Second>211301080</Second>
+    <Value>93.28328826</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.514</InstHeight>
+    <TargHeight>1.312</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (A) Horizontal angle -->
+  <DnaMeasurement>
+    <Type>A</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301000</First>
+    <Second>211300940</Second>
+    <Third>211301080</Third>
+    <Value>57.22267110</Value>
+    <StdDev>2.000000e+01</StdDev>
+  </DnaMeasurement>
+  <!-- Type (A) Horizontal angle -->
+  <DnaMeasurement>
+    <Type>A</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301000</First>
+    <Second>211301080</Second>
+    <Third>211300470</Third>
+    <Value>334.40337330</Value>
+    <StdDev>2.000000e+01</StdDev>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301000</First>
+    <Second>211300470</Second>
+    <Value>8935.9560</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.678</InstHeight>
+    <TargHeight>1.428</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301000</First>
+    <Second>211300470</Second>
+    <Value>90.41095450</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.678</InstHeight>
+    <TargHeight>1.428</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301000</First>
+    <Second>211300940</Second>
+    <Value>4529.9595</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.678</InstHeight>
+    <TargHeight>1.514</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301000</First>
+    <Second>211300940</Second>
+    <Value>88.45362972</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.678</InstHeight>
+    <TargHeight>1.514</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301000</First>
+    <Second>211301080</Second>
+    <Value>5638.4756</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.678</InstHeight>
+    <TargHeight>1.312</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301000</First>
+    <Second>211301080</Second>
+    <Value>92.03498031</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.678</InstHeight>
+    <TargHeight>1.312</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (A) Horizontal angle -->
+  <DnaMeasurement>
+    <Type>A</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301080</First>
+    <Second>211300940</Second>
+    <Third>211301000</Third>
+    <Value>309.56107989</Value>
+    <StdDev>2.000000e+01</StdDev>
+  </DnaMeasurement>
+  <!-- Type (A) Horizontal angle -->
+  <DnaMeasurement>
+    <Type>A</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301080</First>
+    <Second>211301000</Second>
+    <Third>211300470</Third>
+    <Value>122.34230588</Value>
+    <StdDev>2.000000e+01</StdDev>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301080</First>
+    <Second>211300470</Second>
+    <Value>4536.4326</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.312</InstHeight>
+    <TargHeight>1.428</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301080</First>
+    <Second>211300470</Second>
+    <Value>88.45333333</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.312</InstHeight>
+    <TargHeight>1.428</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301080</First>
+    <Second>211300940</Second>
+    <Value>4983.4644</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.312</InstHeight>
+    <TargHeight>1.514</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301080</First>
+    <Second>211300940</Second>
+    <Value>86.34077213</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.312</InstHeight>
+    <TargHeight>1.514</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (S) Slope distance -->
+  <DnaMeasurement>
+    <Type>S</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301080</First>
+    <Second>211301000</Second>
+    <Value>5638.4614</Value>
+    <StdDev>0.0200</StdDev>
+    <InstHeight>1.312</InstHeight>
+    <TargHeight>1.678</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (V) Zenith distance -->
+  <DnaMeasurement>
+    <Type>V</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211301080</First>
+    <Second>211301000</Second>
+    <Value>87.59120701</Value>
+    <StdDev>2.000000e+01</StdDev>
+    <InstHeight>1.312</InstHeight>
+    <TargHeight>1.678</TargHeight>
+  </DnaMeasurement>
+  <!-- Type (L) Level difference -->
+  <DnaMeasurement>
+    <Type>L</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>211300470</First>
+    <Second>HP1</Second>
+    <Value>21.3810</Value>
+    <StdDev>0.016000</StdDev>
+  </DnaMeasurement>
+  <!-- Type (L) Level difference -->
+  <DnaMeasurement>
+    <Type>L</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>HP1</First>
+    <Second>HP2</Second>
+    <Value>5.2590</Value>
+    <StdDev>0.021000</StdDev>
+  </DnaMeasurement>
+  <!-- Type (L) Level difference -->
+  <DnaMeasurement>
+    <Type>L</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>HP2</First>
+    <Second>HP3</Second>
+    <Value>14.2430</Value>
+    <StdDev>0.008000</StdDev>
+  </DnaMeasurement>
+  <!-- Type (L) Level difference -->
+  <DnaMeasurement>
+    <Type>L</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>HP3</First>
+    <Second>HP4</Second>
+    <Value>25.7360</Value>
+    <StdDev>0.013000</StdDev>
+  </DnaMeasurement>
+  <!-- Type (L) Level difference -->
+  <DnaMeasurement>
+    <Type>L</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>HP4</First>
+    <Second>HP5</Second>
+    <Value>4.2320</Value>
+    <StdDev>0.023000</StdDev>
+  </DnaMeasurement>
+  <!-- Type (L) Level difference -->
+  <DnaMeasurement>
+    <Type>L</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>HP5</First>
+    <Second>HP6</Second>
+    <Value>25.6300</Value>
+    <StdDev>0.013000</StdDev>
+  </DnaMeasurement>
+  <!-- Type (L) Level difference -->
+  <DnaMeasurement>
+    <Type>L</Type>
+    <Source></Source>
+    <Ignore/>
+    <Epoch/>
+    <EpochOfObservation/>
+    <First>HP6</First>
+    <Second>211301000</Second>
+    <Value>3.5240</Value>
+    <StdDev>0.020000</StdDev>
   </DnaMeasurement>
 </DnaXmlFormat>

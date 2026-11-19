@@ -5,7 +5,13 @@
 * File type:    Station file
 * Project name: GNSS_Sample_
 * Source files: gnss-networkstn.xml 
-211300470           CCC LLH       63.30000000          10.2000000          400.0000    BENALLA PM   47
-211300940           FFF LLH       63.40000000          10.2000000          450.0000    BENALLA PM   94
-211301000           FFF LLH       63.40000000          10.1000000          550.0000    BENALLA PM  100
-211301080           FFF LLH       63.30000000          10.1000000          300.0000    BENALLA PM  108
+211300470           CCC LLH       63.35000000          10.2100000          400.0000    BENALLA PM   47
+211300940           FFF LLH       63.38000000          10.2000000          600.0000    BENALLA PM   94
+211301000           FFF LLH       63.39000000          10.1500000          500.0000    BENALLA PM  100
+211301080           FFF LLH       63.36000000          10.1600000          300.0000    BENALLA PM  108
+HP1                 CCF LLH       63.35500000          10.2050000          421.0000    BENALLA PM  108
+HP2                 CCF LLH       63.36000000          10.1950000          426.0000    BENALLA PM  108
+HP3                 CCF LLH       63.36500000          10.1800000          440.0000    BENALLA PM  108
+HP4                 CCF LLH       63.37000000          10.1750000          466.0000    BENALLA PM  108
+HP5                 CCF LLH       63.37500000          10.1600000          470.0000    BENALLA PM  108
+HP6                 CCF LLH       63.38500000          10.1550000          496.0000    BENALLA PM  108

@@ -1,0 +1,18 @@
+!#=DNA 3.01 STN    19.11.2026    ETRS89-NOR    01.01.1989        10
+* Created by:   dnaAdjust.dll, Geodetic network adjustment library. 
+* Version:      1.4.0, Debug (64-bit) with OpenBLAS (with OpenMP). 
+* Build:        Nov 18 2026, 12:40:22 - MSVC++ 17.14, VS2022
+* File type:    Station file
+* Project name: etrs89
+* Source data:  Coordinates estimated from least squares adjustment.
+* Adj file:     C:\Users\himsve\source\repos\DynAdjust\sampleData\etrs89.simult.adj
+211300470           CCC LLH       63.3500000000       10.2100000000            400.0000    LLA PM   47
+211300940           FFF LLH       63.3800000033       10.2000000033            600.0002    LLA PM   94
+211301000           FFF LLH       63.3859999916       10.1459999877            499.9997    LLA PM  100
+211301080           FFF LLH       63.3559999930       10.1559999915            300.0009    LLA PM  108
+HP1                 CCF LLH       63.3550000000       10.2050000000            421.3803    LLA PM  108
+HP2                 CCF LLH       63.3600000000       10.1950000000            426.6382    LLA PM  108
+HP3                 CCF LLH       63.3650000000       10.1800000000            440.8810    LLA PM  108
+HP4                 CCF LLH       63.3700000000       10.1750000000            466.6165    LLA PM  108
+HP5                 CCF LLH       63.3750000000       10.1600000000            470.8472    LLA PM  108
+HP6                 CCF LLH       63.3850000000       10.1550000000            496.4767    LLA PM  108
