@@ -46,11 +46,27 @@ cd sampleData
 import -n etrs89 etrs89.stn etrs89.msr -r ETRS89-NOR
 geoid etrs89 -g HREF2025A_NN2000_EUREF89.gsb
 adjust etrs89 --output-adj-msr --constraints 211300470,CCC
+```
 
+Otherwise if you have stations and measurements at xml file run instead. The parameter *export-xml-stn-file* in *dnaproj* has to be changed to *yes*.
+
+```
+import -n etrs89 etrs89.xml -r ETRS89-NOR
+geoid etrs89 -g HREF2025A_NN2000_EUREF89.gsb
+adjust etrs89 --output-adj-msr
 ```
 
 When station, measurement and geoid are import, it is possible to run the same network adjustment. By editing *etrs89.dnaproj*, you can also editing and change the adjustment parameters.
 
 ```
 dynadjust -p etrs89.dnaproj --import --geoid --adjust
+```
+
+### Plotting
+
+Install *gmt*...
+
+
+```
+plot -n etrs89 --title "Svinesti" --label-constraints --label-stations --map-projection 0 --plot-msr-types GASVLXY --positional-uncertainty --label-font-size 10 --error-ellipses --compute-corrections
 ```
